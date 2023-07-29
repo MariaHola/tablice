@@ -27,4 +27,14 @@ const last2Parameters = (parameters) => [
 
 console.log(last2Parameters);
 
+//ćwiczenie 4
+
+const array = ["rum", "kawa", "sangría"];
+
+const indexOf = (element, array) => 
+array.indexOf(element);
+
+console.log(indexOf("kawa", ["rum", "kawa", "sangría"]));
+
+
 
