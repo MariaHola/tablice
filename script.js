@@ -36,5 +36,16 @@ array.indexOf(element);
 
 console.log(indexOf("kawa", ["rum", "kawa", "sangría"]));
 
+//ćwiczenie 5
+const tasks = [
+	{content: ""},
+	{content: "kupić balony"},
+];
+
+const findEmptyTask = (tasks) => {
+	content !== ""
+};
+
+console.log(findEmptyTask);
 
 
