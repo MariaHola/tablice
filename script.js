@@ -42,11 +42,12 @@ const tasks = [
 	{content: "kupić balony"},
 ];
 
-const emptyTask = (tasks) => {
-	content !== "";
-};
+const findEmptyTask = tasks.find(({content}) => content !== "");
 
-const findEmptyTask = tasks.find(emptyTask);
+findEmptyTask();
+
+//ćwiczenie 5 - DRUGIE ROZWIAZANIE
+
 
 //ćwiczenie 6
 
