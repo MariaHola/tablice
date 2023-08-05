@@ -46,8 +46,10 @@ const findEmptyTask = tasks.find(({content}) => content !== "");
 
 findEmptyTask();
 
-//ćwiczenie 5 - DRUGIE ROZWIAZANIE
-
-
 //ćwiczenie 6
+const numbers = [2, 4, 7, 8];
+
+const oddIndex = numbers.findIndex(number%2 !== 0);
+
+console.log(oddIndex);
 
