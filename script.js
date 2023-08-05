@@ -53,3 +53,13 @@ const oddIndex = numbers.findIndex(number%2 !== 0);
 
 console.log(oddIndex);
 
+//ćwiczenie 7
+const fruits = ["banan", "marakuja"];
+
+const hasStrawberry = (fruits) => {
+	fruits.includes("truskawka");
+};
+
+console.log(hasStrawberry);
+
+
