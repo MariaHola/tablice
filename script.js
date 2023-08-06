@@ -70,4 +70,20 @@ people = [
 
 const someAdults = people.some(({age}) => age > 17);
 
-//ćwiczenie 9 
+//ćwiczenie 8 rowiązanie kolejne
+{
+	people = [
+		{name: "Melodia", age:15},
+		{name: "Kosmo", age: 19},
+	];
+	
+	const adults = (age) => {
+		if(age > 17) {
+			return true;
+		} return false;
+	};
+	
+	const someAdults = people.some(adults);
+}
+
+
