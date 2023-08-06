@@ -49,9 +49,8 @@ findEmptyTask();
 //ćwiczenie 6
 const numbers = [2, 4, 7, 8];
 
-const oddIndex = numbers.findIndex(number%2 !== 0);
+const oddIndex = numbers.findIndex(number % 2 !== 0);
 
-console.log(oddIndex);
 
 //ćwiczenie 7
 const fruits = ["banan", "marakuja"];
@@ -62,4 +61,13 @@ const hasStrawberry = (fruits) => {
 
 console.log(hasStrawberry);
 
+//ćwiczenie 8 
 
+people = [
+	{name: "Melodia", age:15},
+	{name: "Kosmo", age: 19},
+];
+
+const someAdults = people.some(({age}) => age > 17);
+
+//ćwiczenie 9 
