@@ -86,4 +86,14 @@ const someAdults = people.some(({age}) => age > 17);
 	const someAdults = people.some(adults);
 }
 
+//ćwiczenie 9
+{
+	const array = ["", "kromka"];
+
+	const onlyString = array.every(array => "");
+
+	console.log(onlyString);
+}
+
+
 
