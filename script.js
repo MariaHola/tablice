@@ -95,5 +95,30 @@ const someAdults = people.some(({age}) => age > 17);
 	console.log(onlyString);
 }
 
+//ćwiczenie 10 
+{
+	const carBrands = ["Peugeot", "BMW", "Audi"];
 
+	const premiumBrands = carBrands.includes( () => ("Mercedes", "BMW", "Audi"));
+
+	const filterPremium = carBrands.filter(premiumBrands);
+
+	filterPremium();
+}
+
+//ćwiczenie 11
+
+{
+	const cars = [
+		{car: "BMW X5", color: "black"},
+		{car: "Peugeot 3008", color: "white"},
+	];
+
+	const getColors = cars.map(({color}) => color);
+	getColors();
+}
+
+
+
+//ćwiczenie 12
 
