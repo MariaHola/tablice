@@ -118,7 +118,16 @@ const someAdults = people.some(({age}) => age > 17);
 	getColors();
 }
 
+//ćwiczenie 11 rozwiązanie nr.2
 
+{
+	const fourWheelers = [
+		{car: "BMW X5", color: "black"},
+		{car: "Peugeot 3008", color: "white"},
+	];
+
+	const getColors = fourWheelers.map(fourWheeler => fourWheeler.color);
+}
 
 //ćwiczenie 12
 
