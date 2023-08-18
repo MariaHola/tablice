@@ -131,3 +131,16 @@ const someAdults = people.some(({age}) => age > 17);
 
 //ćwiczenie 12
 
+{
+	const persons = [
+		{name: "Krzychu", age: 30},
+		{name: "Zdzichu", age: 20},
+	];
+	
+	const people = ({name, age}) => `${name} ${age}`;
+	
+	const sortPeople = people.sort((age1, age2) => {
+		return age1-age2;
+	}); 
+
+}
